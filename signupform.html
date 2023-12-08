@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signuphere</title>
+    </head>
+    <body bgcolor="#A0522D">
+        <br><br><br>
+       
+        
+             <table border="0" align="center" width="35%" cellpadding="10" bgcolor="white">              
+                <tr>
+                    <td >
+                      <h1>SIGN UP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                      <form action="">
+                        <label for="name"><b><i>Name</i></b></label><br>
+                        <input type="text" id="name" placeholder="example"  required pattern="a-z]{8,13}" width="100px"><br><br>
+                        <label for="mail"> <b><i>Email</i><b></label><br>
+                        <input type="text" id="mail" placeholder="example@gmail.com" required><br><br>
+                        <label for="pass"><b><i>Password</i></b></label><br>
+                        <input type="password"  id="pass"><br><br>
+                        <label for="num"><i>Phonenumber</i></label><br>
+                        <input type="number" id="num" placeholder="1234567890" pattern="[0-9]{10}" required> <br><br>
+                        <label for="dob"><i>Date of Birth</i></label><br>
+                        <input type="date" id="dob" > <br><br>  
+                        <label ><i>Location</i></label><br>
+                        <input list="place" ><br><br>
+                        <datalist id="place">
+                            <option value="">mangalore</option>
+                            <option value="">vijayawada</option>
+                            <option value="">vizag</option>
+                            <option value="">hyderabad</option>
+                            <option value="">Bangalore</option>
+                            <option value="">chennai</option>
+                            <option value="">kerala</option>
+                            <option value="">Mumbai</option>
+                            <option value="">pune</option>
+                            <option value="">coimbatore</option>
+                            <option value="">delhi</option>
+
+                        </datalist>
+                        <button bgcolor="#000000" > <a href="http://127.0.0.1:5500/home.html"> SIGN IN</a></button><br>
+                        <p>or</p>
+                        <button>Sign in with phone number</button><br><br>
+                        <button>Sign in with google </button>
+                       
+
+                      </form>
+    
+                    </td>
+                    <td>
+                        <img src="signpic.jpg" height="450px">
+                    </td>
+                </tr>
+            </table>
+         
+        
+        
+    </body>
+</html>
